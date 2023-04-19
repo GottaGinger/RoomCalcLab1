@@ -50,7 +50,7 @@ if (area <= 250)
 {
     Console.WriteLine("Calculated: this is a small room");
 }
-else if (area <= 650)
+else if (area < 650)
 {
     Console.WriteLine("Calculated: this is a medium sized room");
 }
@@ -58,6 +58,5 @@ else
 {
     Console.WriteLine("Caclulated: this is a large room");
 }
-
 
 
